@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="center">
     <title>Tässä on title</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p>Tässä on "body teksti"</p>
+    <h1 id="Sininen">Welcome to my website</h1>
+    <p>Heres what you'll find:</p>
+    <li>I got pictures of <b>ducks</b></li> 
+    <li>I'll adjust their positioning with grid template columns.</li>
+    <li>I'll use responsive desing.</li>
+
+    <h2> Ducks are magnificent creatures</h2>
+    <p> Element selectors target HTML elements based on their tag name/tag attributes</p>
+    <p> Class selectors target HTML classes, which could contain several different elements. (img,p,div,h)</p>
+    </div>
+
+
+<div class="card">  <!--class is a class selector, but in css we spesify rules with .card img.
+    .class is class selector and img is element selector. together these make a combination selector.
+    Why use this? 
+    If we have class ".Mobile vehicles" and subclasses/elements "Scooter, Bike," css rules written to ".Mobile vehicles will affect all subclasses, while rules to .Mobile vehicles-scooter will only affect scooter elements."
+    Therefore we need to write less code. -->
+
+
+<div class="card-container"> <!-- img-fluid class is usually a better choice than img. img-fluid is more responsive and flexible. -->
+<img src="images/Mallard2.jpg" class="img-fluid" alt="Duck in water">
+<img src="images/Mallard © Mark Hamblin.jpg" class="img-fluid" alt="View of duck from the side. Duck looks forward">
+<img src="images/Stunning-display.jpg" class="img-fluid" alt="Duck about to take flight from water">
+</div>
+</div> 
+
+
+
+
+
+
+
 </body>
 </html>

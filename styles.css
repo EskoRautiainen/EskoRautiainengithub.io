@@ -1,0 +1,34 @@
+body {          /* Body is also an element selector*/
+    color: rgb(31, 78, 95);
+    background-color: azure;
+}
+
+title {
+    
+}
+
+.center {
+    display: grid;
+    place-items: center; 
+    /*text items and lists dont like margin: 0 auto, while pictures and grids don't like place_items: centre */
+    padding-top: 50px;
+    padding: 15px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  /*grid is amazing. double down on grid.*/
+    max-width: 80%; 
+    margin: 0 auto; 
+    gap: 20px;
+}
+
+.card img {         /* .card is class selector and img is an element selector. This is a combination selector*/
+    width: 100%;    /* forces maximum size allowed by the container */
+} 
+
+#Sininen {          /* #Sininen is an ID-selector*/
+color: rgb(0, 37, 187);
+font-family:'Courier New', Courier, monospace;
+font-size: xx-large;
+}
